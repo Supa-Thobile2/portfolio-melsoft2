@@ -5,9 +5,9 @@ function NavBar() {
   
 
   return (
-    <header className=''>
+    <header className='fixed top-0 mb-8'>
 
-        <nav className="relative w-screen fixed top-0  py-2 flex justify-between align-center">
+        <nav className="relative w-screen fixed top-0  pb-6 flex justify-between align-center md:pb-8">
 
           <div className='text-2xl'>
                   <h1 className='text-bold md:text-3xl lg:text-4xl'>Thobile N.</h1>

@@ -12,8 +12,8 @@ function Hero() {
   return (
 
     <>
-        <NavBar />
-        <div className='flex items-center justify-center flex-col mx-auto w-screen'>
+        
+        <div className='flex items-center justify-center flex-col mx-auto w-screen border-2 mt-12 h-full w-full'>
                   <div className='flex items-center justify-center flex-col mx-auto py-4'>
                       <img src={Image}  alt='astranaut image' className='rounded-full ' />
                       <div className='py-1'>
@@ -32,8 +32,8 @@ function Hero() {
                   </div>
             </div>
         </div>
-        <About />
-        <Project/>
+        
+      
     </>
     
 
