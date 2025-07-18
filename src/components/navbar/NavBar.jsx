@@ -5,11 +5,7 @@ function NavBar() {
   
 
   return (
-<<<<<<< HEAD
-    <header className='fixed top-0'>
-=======
     
->>>>>>> 09b62fe809c0486e1a8d2934d728d1b3a251b103
 
         <nav className="top-0 fixed flex justify-between align-center border w-full p-3">
 

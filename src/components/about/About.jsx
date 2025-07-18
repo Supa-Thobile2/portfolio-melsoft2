@@ -12,7 +12,7 @@ function About() {
     <>
        <div className=' rounded-3xl  md:flex justify-center items-center p-10'>
         
-            <img src={Image} alt="astranaut" srcset="" className='w-100 rounded-4xl ' />
+            <img src={Image} alt="astranaut"  className='w-100 rounded-4xl ' />
       
 
         <div className='p-2 md:p-10 mx-auto text-center '>
