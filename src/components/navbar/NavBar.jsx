@@ -5,32 +5,32 @@ function NavBar() {
   
 
   return (
+<<<<<<< HEAD
     <header className='fixed top-0'>
+=======
+    
+>>>>>>> 09b62fe809c0486e1a8d2934d728d1b3a251b103
 
-        <nav className="relative w-screen fixed top-0  py-2 flex justify-between align-center">
+        <nav className="top-0 fixed flex justify-between align-center border w-full p-3">
 
           <div className='text-2xl'>
-                  <h1 className='text-bold md:text-3xl lg:text-4xl'>Thobile N.</h1>
+                  <h1 className='text-bold text-2xl text-white md:text-2xl lg:text-2xl'>Thobile N.</h1>
           </div>
-          <div className='text-2xl'>
-            <div className='md: hidden'>
-                      <span className='bg-black w-10 p-4 mb-4'>-</span>
-                      <span className='bg-black w-10 p-4 mb-4'>-</span>
-                      <span className='bg-black w-10 p-4 mb-4'>-</span>
-            </div>
-                <ul className='hidden md:flex justify-between items-center gap-2 mx-4'>
-                  <li className='mb-10'>Home</li>
-                  <li className='mb-10'>About</li>
-                  <li className='mb-10'>Projects</li>
-                  <li className='mb-10'>Contact</li>
-                  <li className='mb-10'>Hire</li>
+          <div className='text-base'>
+          
+                <ul className='hidden md:flex justify-between items-center text-white uppercase'>
+                  <li className='mx-2'>Home</li>
+                  <li className='mx-2'>About</li>
+                  <li className='mx-2'>Projects</li>
+                  <li className='mx-2'>Contact</li>
+                  <li className='mx-2'>Hire</li>
                 </ul>
           </div>
       
         </nav>
 
 
-    </header>
+    
   )
 }
 

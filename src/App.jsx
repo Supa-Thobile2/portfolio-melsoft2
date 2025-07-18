@@ -1,14 +1,14 @@
 import { useState } from 'react'
 import './App.css'
+import Home from './components/home/Home'
 
-import Hero from './components/hero/Hero'
 
 function App() {
   
 
   return (
     <>
-      <Hero /> 
+      <Home/>
       
     </>
   )
