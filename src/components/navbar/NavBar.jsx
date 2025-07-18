@@ -5,7 +5,7 @@ function NavBar() {
   
 
   return (
-    <header className=''>
+    <header className='fixed top-0'>
 
         <nav className="relative w-screen fixed top-0  py-2 flex justify-between align-center">
 
