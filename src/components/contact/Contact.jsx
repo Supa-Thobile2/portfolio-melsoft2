@@ -37,8 +37,8 @@ function Contact() {
         
         <div className='flex items-center justify-center flex-col mx-auto w-full   p-8 '>
 
-                <h1>Contact Me</h1>
-                <p>Contact Me </p>
+                <h1 className='text-3xl text-white py-2 '>Contact Me</h1>
+                <p className='text-base text-white py-2 '>Contact Me </p>
                   
                  <form class="w-full max-w-lg" onSubmit={handleOnSubmit}>
   <div class="flex flex-wrap -mx-3 mb-6">
@@ -93,7 +93,7 @@ function Contact() {
       </label>
       <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-zip" type="text" placeholder="90210" onChange={handleOnChange}/>
     </div>
-     <button class="w-full bg-teal-500 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="button" onClick={handleClick}>
+     <button class="w-full bg-teal-500 mt-4 hover:bg-teal-700 border-teal-500 hover:border-teal-700 text-sm border-4 text-white py-1 px-2 rounded" type="button" onClick={handleClick}>
       Sign Up
     </button>
   </div>

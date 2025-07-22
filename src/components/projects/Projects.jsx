@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Image from '../images/sky.jfif'
 import { FaCode, FaGlobe } from 'react-icons/fa'
-import Card from './src/components/card/Card'
+import Card from '../card/Card'
 
 
 
@@ -10,13 +10,16 @@ function Project() {
 
   return (
 
-    <section className='border-2'>
+    <section className='p-2'>
        <div className='text-center shadow-2xl'>
             <h1 className='text-3xl text-white py-2 '>Projects</h1>
-        <div className='md:grid grid-cols-2   2xl:grid-cols-4 p-10 '>
+        <div className=' gap-2 md:grid grid-cols-2  2xl:grid-cols-4 '>
 
 
             
+             <Card />
+             <Card />
+             <Card />
              <Card />
 
           
