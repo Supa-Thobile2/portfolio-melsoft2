@@ -12,7 +12,7 @@ function Hero() {
 
     <>
         
-        <div className=' flex items-center justify-center flex-col mx-auto w-full h-full mt-14 text-center p-4 mb-4 '>
+        <div className=' flex items-center justify-center flex-col mx-auto w-full h-full mt-12 text-center p-4 mb-4 '>
                
                         <img src={Image}  alt='astranaut image' className='w-25 rounded-full shadow-lg mx-auto mb-1 md:mx-auto' />
                  
