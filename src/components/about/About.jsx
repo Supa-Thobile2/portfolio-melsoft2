@@ -15,9 +15,9 @@ function About() {
             <img src={Image} alt="astranaut"  className='w-100 rounded-4xl object-contain mb-2' />
       
 
-        <div className='p-2 md:p-10 mx-auto text-center px-8'>
-              <h1 className='text-3xl text-white py-2 '>Thobile Nontenja</h1>
-               <div className='flex items-center justify-between gap-2 p-2 my-3'>
+        <div className='p-2 md: mx-auto text-center'>
+              <h1 className='text-lg text-white py-2 '>Thobile Nontenja</h1>
+               <div className='flex items-center justify-center gap-2 p-1'>
                                   <button className='py-2 px-2  bg-blue-600 rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaLinkedin/></button>
                                   <button className='py-2 px-2 bg-black rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaGithub/></button>
                                   <button className='py-2 px-2 bg-red-500 rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaDiscord/></button>
