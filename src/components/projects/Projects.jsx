@@ -13,7 +13,7 @@ function Project() {
     <section className='p-2'>
        <div className='text-center shadow-2xl'>
             <h1 className='text-3xl text-white py-2 '>Projects</h1>
-        <div className='p-4  gap-2 md:grid grid-cols-2  2xl:grid-cols-4 '>
+        <div className='p-8  gap-2 md:grid grid-cols-2  2xl:grid-cols-4 '>
 
 
             
