@@ -2,8 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap'); 
 
 body{
-    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to bottom, #1a1d23, #2c3e50, #000);
 font-family: 'Merriweather', sans-serif;
+
+
 
 }
 

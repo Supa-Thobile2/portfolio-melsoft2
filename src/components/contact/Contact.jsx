@@ -35,12 +35,12 @@ function Contact() {
 
     <>
         
-        <div className='flex items-center justify-center flex-col mx-auto w-full   p-8 '>
+        <div className='flex items-center justify-center flex-col mx-auto w-full   p-8 shadow-lg bg-r-[ #2C5364, #203A43, #0F2027] backdrop-filter backdrop-blur-lg'>
 
                 <h1 className='text-3xl text-white py-2 '>Contact Me</h1>
                 <p className='text-base text-white py-2 '>Contact Me </p>
                   
-                 <form class="w-full max-w-lg" onSubmit={handleOnSubmit}>
+                 <form class="w-full max-w-lg  p-2 shadow-lg" onSubmit={handleOnSubmit} >
   <div class="flex flex-wrap -mx-3 mb-6">
     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
       <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
