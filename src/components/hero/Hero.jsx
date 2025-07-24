@@ -34,9 +34,9 @@ function Hero() {
                     <span className='text-[12px] leading-7 tracking-wide  text-base text-start text-white italic bold md:text-center block lg:text-base'>'First rule at Melsoft club: Talk about code. The second rule of the melsoft club: You don't think about Errors'</span>
                   </div>
 
-                  <div className='flex items-center justify-between gap-4 my-2 p-2'>
-                    <button className='flex justify-evenly items-center gap-4  px-4 py-2 bg-blue-100 rounded-2xl hover:translate-y-[10px] hover:shadow-md transition duration-300'>Hire Me<FaFileDownload/></button>
-                    <button className='flex justify-evenly items-center gap-4  px-4 py-2 bg-blue-100 rounded-2xl hover:translate-y-[10px] hover:shadow-md transition duration-300'>Contact Me<FaEnvelope/></button>
+                  <div className='flex items-center justify-between gap-2 my-2 p-2'>
+                    <button className='flex justify-evenly items-center gap-2  py-2 px-8 bg-blue-100 rounded-2xl hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaFileDownload/>Hire Me</button>
+                    <button className='flex justify-evenly items-center gap-2  py-2 px-8 bg-blue-100 rounded-2xl hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaEnvelope/>Contact Me</button>
 
                   </div>
                   
