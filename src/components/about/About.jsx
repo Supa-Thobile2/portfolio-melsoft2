@@ -10,7 +10,7 @@ function About() {
   return (
 
     <>
-       <div className='rounded-3xl h-[100vh] md:flex justify-center items-center px-2 mb-40'>
+       <div className='rounded-3xl w-[100vw] h-[100vh] md:flex justify-center items-center p-8 mb-40'>
         
             <img src={Image} alt="astranaut"  className='w-[100vw] rounded-4xl object-contain mb-2' />
       
@@ -29,8 +29,8 @@ function About() {
               </div>
               
                 <div className='flex justify-evenly items-center w-full gap-2 my-3 '>
-                  <button className='flex justify-evenly items-center   py-2 px-8 bg-blue-200 rounded-3xl gap-2 outline-0 border hover:translate-y-[10px] hover:shadow-md transition duration-300'> <FaEnvelope/>Contact Me</button>
-                  <button className='flex justify-evenly items-center   py-2 px-8 bg-blue-200 rounded-3xl gap-2 hover:translate-y-[10px] hover:shadow-md transition duration-300'>  <FaFileDownload/>Hire Me</button>
+                  <button className='flex justify-evenly items-center  text-[8px] py-2 px-4 bg-blue-200 rounded-3xl gap-2 outline-0 border hover:translate-y-[10px] hover:shadow-md transition duration-300'> <FaEnvelope size={9}/>Contact Me</button>
+                  <button className='flex justify-evenly items-center  text-[8px] py-2 px-4 bg-blue-200 rounded-3xl gap-2 hover:translate-y-[10px] hover:shadow-md transition duration-300'>  <FaFileDownload size={9}/>Hire Me</button>
 
                 </div>
         </div>
