@@ -18,8 +18,8 @@ function Hero() {
                  
                       
                       
-                        <h1 className='text-lg text-white my-1 md:text-4xl lg:text-3xl '>Thobile Nontenja</h1>
-                        <span className='text-white  md:text-base lg:text-base'>Full Stack Developer</span>
+                        <h1 className='text-[14px] text-white my-1 md:text-4xl lg:text-3xl '>Thobile Nontenja</h1>
+                        <span className='text-white pb-2 text-[8px] md:text-base lg:text-base'>Full Stack Developer</span>
                   
                   <div className='flex items-center justify-between gap-2'>
                     <button className='py-2 px-2  bg-blue-600 rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaLinkedin/></button>
