@@ -28,9 +28,9 @@ function Hero() {
 
                   </div>
                   <div className='w-full  flex items-center justify-center flex-col px-4 py-2 mx-10 my-1'>
-                    <p className='text-[8px] pb-2 tracking-wide leading-4 text-white  md:text-center '>Hey there! It's a me Thobile Nontenja, a software engineer based in South Africa with a passion for building innovative digital solutions.
+                    <p className='text-[8px] pb-1 tracking-wide leading-4 text-white  md:text-center '>Hey there! It's a me Thobile Nontenja, a software engineer based in South Africa with a passion for building innovative digital solutions.
                        </p>
-                    <p className='text-[8px] pb-2 text-white tracking-wide leading-4 text-start   md:text-center lg:text-base'>Since starting my coding journey in 2019, I've developed a strong foundation in front-end development, with expertise in HTML, CSS, and JavaScript.</p>
+                    <p className='text-[8px] pb-1 text-white tracking-wide leading-4 text-start   md:text-center lg:text-base'>Since starting my coding journey in 2019, I've developed a strong foundation in front-end development, with expertise in HTML, CSS, and JavaScript.</p>
                     <span className='text-[6px] leading-4 tracking-wide  text-base  text-white italic bold md:text-center block lg:text-base'>'First rule at Melsoft club: Talk about code. The second rule of the melsoft club: You don't think about Errors'</span>
                   </div>
 
