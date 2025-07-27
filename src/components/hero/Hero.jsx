@@ -12,7 +12,7 @@ function Hero() {
 
     <>
         
-        <div className=' flex items-center justify-center flex-col mx-auto w-full h-[100vh] mt-10 text-center p-3 border-b-2'>
+        <div className=' flex items-center justify-center flex-col mx-auto w-full h-[100vh] mt-10 text-center px-3 border-b-2'>
                
                         <img src={Image}  alt='astranaut image' className='w-25 rounded-full shadow-lg mx-auto  md:mx-auto' />
                  
@@ -27,7 +27,7 @@ function Hero() {
                     <button className='py-2 px-2 bg-red-500 rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaDiscord/></button>
 
                   </div>
-                  <div className='w-full  flex items-center justify-center flex-col px-4 py-2 mx-8 my-4'>
+                  <div className='w-full  flex items-center justify-center flex-col px-4 py-2 mx-8 my-2'>
                     <p className='text-[8px] tracking-wide leading-4 text-white  md:text-center '>Hey there! It's a me Thobile Nontenja, a software engineer based in South Africa with a passion for building innovative digital solutions.
                        </p>
                     <p className='text-[8px] text-white tracking-wide leading-4 text-start   md:text-center lg:text-base'>Since starting my coding journey in 2019, I've developed a strong foundation in front-end development, with expertise in HTML, CSS, and JavaScript.</p>
