@@ -10,9 +10,9 @@ function About() {
   return (
 
     <>
-       <div className='rounded-3xl h-full md:flex justify-center items-center p-6'>
+       <div className='rounded-3xl h-[100vh] md:flex justify-center items-center p-6 my-20'>
         
-            <img src={Image} alt="astranaut"  className='w-100 rounded-4xl object-contain mb-2' />
+            <img src={Image} alt="astranaut"  className='w-[100vw] rounded-4xl object-contain mb-2' />
       
 
         <div className=' md: mx-auto text-center'>

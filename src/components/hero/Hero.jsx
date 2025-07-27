@@ -12,26 +12,26 @@ function Hero() {
 
     <>
         
-        <div className=' flex items-center justify-center flex-col mx-auto w-full h-[100vh] mt-12 text-center px-4'>
+        <div className=' flex items-center justify-center flex-col mx-auto w-full h-[100vh] m-10 text-center p-6 border-b-2'>
                
-                        <img src={Image}  alt='astranaut image' className='w-35 rounded-full shadow-lg mx-auto  md:mx-auto' />
+                        <img src={Image}  alt='astranaut image' className='w-30 rounded-full shadow-lg mx-auto  md:mx-auto' />
                  
                       
                       
                         <h1 className='text-lg text-white my-1 md:text-4xl lg:text-3xl '>Thobile Nontenja</h1>
                         <span className='text-white  py-1  md:text-base lg:text-base'>Full Stack Developer</span>
                   
-                  <div className='flex items-center justify-between gap-2 p-2'>
+                  <div className='flex items-center justify-between gap-2'>
                     <button className='py-2 px-2  bg-blue-600 rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaLinkedin/></button>
                     <button className='py-2 px-2 bg-black rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaGithub/></button>
                     <button className='py-2 px-2 bg-red-500 rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaDiscord/></button>
 
                   </div>
-                  <div className='w-full items-center px-4 py-4'>
-                    <p className='text-[12px] tracking-wide leading-7 text-white text-start md:text-center '>Hey there! It's a me Thobile Nontenja, a software engineer based in South Africa with a passion for building innovative digital solutions.
+                  <div className='w-full  flex items-center justify-center flex-col items-center px-4 py-4 m-4'>
+                    <p className='text-[10px] tracking-wide leading-7 text-white text-start md:text-center '>Hey there! It's a me Thobile Nontenja, a software engineer based in South Africa with a passion for building innovative digital solutions.
                        </p>
-                    <p className='text-[12px] text-white tracking-wide leading-7 text-start   md:text-center lg:text-base'>Since starting my coding journey in 2019, I've developed a strong foundation in front-end development, with expertise in HTML, CSS, and JavaScript.</p>
-                    <span className='text-[12px] leading-7 tracking-wide  text-base text-start text-white italic bold md:text-center block lg:text-base'>'First rule at Melsoft club: Talk about code. The second rule of the melsoft club: You don't think about Errors'</span>
+                    <p className='text-[10px] text-white tracking-wide leading-7 text-start   md:text-center lg:text-base'>Since starting my coding journey in 2019, I've developed a strong foundation in front-end development, with expertise in HTML, CSS, and JavaScript.</p>
+                    <span className='text-[8px] leading-7 tracking-wide  text-base text-start text-white italic bold md:text-center block lg:text-base'>'First rule at Melsoft club: Talk about code. The second rule of the melsoft club: You don't think about Errors'</span>
                   </div>
 
                   <div className='flex items-center justify-between gap-2'>
