@@ -12,7 +12,7 @@ function Hero() {
 
     <>
         
-        <div className=' flex items-center justify-center flex-col mx-auto w-full h-[100vh] mt-10 text-center px-3 border-b-2'>
+        <div className=' flex items-center justify-center flex-col mx-auto w-full h-[100vh] mt-10 text-center px-4 border-b-2'>
                
                         <img src={Image}  alt='astranaut image' className='w-25 rounded-full shadow-lg mx-auto  md:mx-auto' />
                  
@@ -34,7 +34,7 @@ function Hero() {
                     <span className='text-[6px] leading-7 tracking-wide  text-base  text-white italic bold md:text-center block lg:text-base'>'First rule at Melsoft club: Talk about code. The second rule of the melsoft club: You don't think about Errors'</span>
                   </div>
 
-                  <div className='flex items-center justify-between gap-2'>
+                  <div className='flex items-center justify-evenly gap-2'>
                     <button className='flex justify-evenly items-center gap-2 text-[8px] py-2 px-4 bg-blue-100 rounded-2xl hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaFileDownload size={9}/>Hire Me</button>
                     <button className='flex justify-evenly items-center gap-2 text-[8px]  py-2 px-4 bg-blue-100 rounded-2xl hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaEnvelope size={9}/>Contact Me</button>
 
