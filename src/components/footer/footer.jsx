@@ -13,12 +13,12 @@ function Footer() {
 
     <>
         
-<footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10">
-  <nav className=' md:flex justify-center items-center flex-wrap gap-1'>
-    <h6 className="block">Home</h6>
-    <a className="block">About</a>
-    <a className="block">Project</a>
-    <a className="block">Education</a>
+<footer className="footer sm:footer-horizontal bg-base-200 text-base-content p-10 ">
+  <nav className=' md:flex justify-center items-center flex-wrap gap-2 text-white'>
+    <h6 className="block py-2">Home</h6>
+    <a className="block py-2">About</a>
+    <a className="block py-2">Project</a>
+    <a className="block py-2">Education</a>
     <a className="block">Contact Me</a>
   </nav>
   
