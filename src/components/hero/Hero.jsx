@@ -31,7 +31,7 @@ function Hero() {
                     <p className='text-[8px] tracking-wide leading-4 text-white  md:text-center '>Hey there! It's a me Thobile Nontenja, a software engineer based in South Africa with a passion for building innovative digital solutions.
                        </p>
                     <p className='text-[8px] text-white tracking-wide leading-4 text-start   md:text-center lg:text-base'>Since starting my coding journey in 2019, I've developed a strong foundation in front-end development, with expertise in HTML, CSS, and JavaScript.</p>
-                    <span className='text-[6px] leading-7 tracking-wide  text-base  text-white italic bold md:text-center block lg:text-base'>'First rule at Melsoft club: Talk about code. The second rule of the melsoft club: You don't think about Errors'</span>
+                    <span className='text-[6px] leading-4 tracking-wide  text-base  text-white italic bold md:text-center block lg:text-base'>'First rule at Melsoft club: Talk about code. The second rule of the melsoft club: You don't think about Errors'</span>
                   </div>
 
                   <div className='flex items-center justify-evenly gap-2'>
