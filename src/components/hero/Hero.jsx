@@ -12,14 +12,14 @@ function Hero() {
 
     <>
         
-        <div className=' flex items-center justify-center flex-col mx-auto w-full h-[100vh] m-10 text-center p-6 border-b-2'>
+        <div className=' flex items-center justify-center flex-col mx-auto w-full h-[100vh] m-10 text-center p-4 border-b-2'>
                
-                        <img src={Image}  alt='astranaut image' className='w-30 rounded-full shadow-lg mx-auto  md:mx-auto' />
+                        <img src={Image}  alt='astranaut image' className='w-25 rounded-full shadow-lg mx-auto  md:mx-auto' />
                  
                       
                       
                         <h1 className='text-lg text-white my-1 md:text-4xl lg:text-3xl '>Thobile Nontenja</h1>
-                        <span className='text-white  py-1  md:text-base lg:text-base'>Full Stack Developer</span>
+                        <span className='text-white  md:text-base lg:text-base'>Full Stack Developer</span>
                   
                   <div className='flex items-center justify-between gap-2'>
                     <button className='py-2 px-2  bg-blue-600 rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaLinkedin/></button>
