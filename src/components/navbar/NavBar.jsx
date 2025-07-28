@@ -7,7 +7,7 @@ function NavBar() {
   return (
     
 
-        <nav className="top-0 fixed flex justify-between align-center border w-full p-3">
+        <nav className="top-0 fixed flex justify-between align-center border w-100 p-3">
 
           <div className='text-2xl'>
                   <h1 className='text-bold text-2xl text-white md:text-2xl lg:text-2xl'>Thobile N.</h1>
