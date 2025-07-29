@@ -11,7 +11,7 @@ function Project() {
   return (
 
     
-       <div className='text-center shadow-2xl mt-30 '>
+       <div className='flex justify-center items-center flex-col p-4 shadow-2xl rounded-4xl '>
             <h1 className='text-3xl text-white py-1'>Projects</h1>
             <p className='text-white text-[12px] text-center'>As a bootcamp student, Ive had the opportunity  to work on various projects that shocase my skills in HTML, CSS, JS, React,Vite, and Tailwindcss.</p>
         <div className=' gap-2 mx-auto md:grid grid-cols-4'>
