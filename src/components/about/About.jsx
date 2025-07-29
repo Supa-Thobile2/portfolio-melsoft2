@@ -18,9 +18,9 @@ function About() {
         <div className=' md: mx-auto text-center'>
               <h1 className='text-lg text-white py-1 '>Thobile Nontenja</h1>
                <div className='flex items-center justify-center gap-2'>
-                                  <button className='py-2 px-2  bg-blue-600 rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaHtml5/></button>
-                                  <button className='py-2 px-2 bg-white rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaCss3/></button>
-                                  <button className='py-2 px-2 bg-red-500 rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaJs/></button>
+                                  <button className='py-2 px-2  bg-blue-600 rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaHtml5 size={9}/></button>
+                                  <button className='py-2 px-2 bg-white rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaCss3 size={9}/></button>
+                                  <button className='py-2 px-2 bg-red-500 rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaJs size={9}/></button>
               
               </div>
               <div className='py-1 mx-2'>
