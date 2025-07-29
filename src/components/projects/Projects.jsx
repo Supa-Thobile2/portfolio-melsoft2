@@ -12,8 +12,8 @@ function Project() {
 
     
        <div className='text-center shadow-2xl mt-30 '>
-            <h1 className='text-3xl text-white py-2 '>Projects</h1>
-            <p className='text-white text-[12px]'>As a bootcamp student, Ive had the opportunity  to work on various projects that shocase my skills in HTML, CSS, JS, React,Vite, and Tailwindcss.</p>
+            <h1 className='text-3xl text-white py-1'>Projects</h1>
+            <p className='text-white text-[12px] text-center'>As a bootcamp student, Ive had the opportunity  to work on various projects that shocase my skills in HTML, CSS, JS, React,Vite, and Tailwindcss.</p>
         <div className=' gap-2 mx-auto md:grid grid-cols-4'>
 
 
