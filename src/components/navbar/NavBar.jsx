@@ -15,12 +15,12 @@ const toggleMenu = () =>{
         <h1 className='text-[1.3rem] text-amber-50'>Thobile N.</h1>
         <button className='b-white px-4 py-2 rounded-md text-white text-[1rem]'>X</button>
       {isOpen && (
-<div className='absolute top-16 inset-0 w-full bg-white shadow-lg py-2'>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Projects</li>
-          <li>Contact</li>
+<div className='absolute top-16 inset-0 w-full bg-gradient-to-b from-[#1a1d23] via-[#2c3e50] to-[#000] shadow-lg py-2 flex justify-center items-center'>
+        <ul className='text-white '>
+          <li className='text-[20px] my-4'>Home</li>
+          <li className='text-[20px] my-4'>About</li>
+          <li className='text-[20px] my-4'>Projects</li>
+          <li className='text-[20px] my-4'>Contact</li>
         </ul>
         </div>
 
