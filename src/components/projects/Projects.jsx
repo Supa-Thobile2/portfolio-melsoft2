@@ -10,10 +10,10 @@ function Project() {
 
   return (
 
-    <section className=''>
+    
        <div className='text-center shadow-2xl mt-30 '>
             <h1 className='text-3xl text-white py-2 '>Projects</h1>
-        <div className=' gap-2 mx-auto md:grid grid-cols-2  2xl:grid-cols-4 '>
+        <div className=' gap-2 mx-auto md:grid grid-cols-4'>
 
 
             
@@ -31,7 +31,7 @@ function Project() {
         </div>
 
        </div>
-    </section>
+    
     
 
   )
