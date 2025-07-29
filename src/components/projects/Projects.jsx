@@ -10,8 +10,8 @@ function Project() {
 
   return (
 
-    <section className='border-2'>
-       <div className='text-center shadow-2xl mt-30 border-2'>
+    <section className=''>
+       <div className='text-center shadow-2xl mt-30 '>
             <h1 className='text-3xl text-white py-2 '>Projects</h1>
         <div className=' gap-2 mx-auto md:grid grid-cols-2  2xl:grid-cols-4 '>
 
