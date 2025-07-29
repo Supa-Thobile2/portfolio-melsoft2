@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Image from '../images/sky.jfif'
-import { FaLinkedin, FaGithub, FaDiscord, FaFileDownload, FaEnvelope } from 'react-icons/fa'
+import { FaHtml5, FaCss3, FaJs, FaFileDownload, FaEnvelope } from 'react-icons/fa'
 
 
 
@@ -18,9 +18,9 @@ function About() {
         <div className=' md: mx-auto text-center'>
               <h1 className='text-lg text-white py-1 '>Thobile Nontenja</h1>
                <div className='flex items-center justify-center gap-2'>
-                                  <button className='py-2 px-2  bg-blue-600 rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaLinkedin/></button>
-                                  <button className='py-2 px-2 bg-black rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaGithub/></button>
-                                  <button className='py-2 px-2 bg-red-500 rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaDiscord/></button>
+                                  <button className='py-2 px-2  bg-blue-600 rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaHtml5/></button>
+                                  <button className='py-2 px-2 bg-white rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaCss3/></button>
+                                  <button className='py-2 px-2 bg-red-500 rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaJs/></button>
               
               </div>
               <div className='py-1 mx-2'>

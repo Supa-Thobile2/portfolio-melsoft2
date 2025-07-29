@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from '../images/sky.jfif'
 import {MdPublic, MdCode} from 'react-icons/md'
+import { FaHtml5, FaCss3, FaJs } from 'react-icons/fa'
 
 
 
@@ -14,6 +15,12 @@ const Card = () => {
             </div>
             <div>
                 <p className='text-base text-white'>Project about</p>
+                <div className='flex items-center justify-center gap-2'>
+                                                  <button className='py-2 px-2  bg-blue-600 rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaHtml5/></button>
+                                                  <button className='py-2 px-2 bg-white rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaCss3/></button>
+                                                  <button className='py-2 px-2 bg-red-500 rounded-full hover:translate-y-[10px] hover:shadow-md transition duration-300'><FaJs/></button>
+                              
+                </div>
             </div>
             <div className='flex items-center justify-evenly gap-2 my-4 p-2'>
                 <button className='py-2 px-8 rounded-4xl bg-white flex items-center justify-evenly gap-2'><MdPublic/>live</button>

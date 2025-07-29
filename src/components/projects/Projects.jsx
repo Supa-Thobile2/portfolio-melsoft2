@@ -10,17 +10,17 @@ function Project() {
 
   return (
 
-    <section className=''>
-       <div className='text-center shadow-2xl mt-30'>
+    <section className='border-2'>
+       <div className='text-center shadow-2xl mt-30 border-2'>
             <h1 className='text-3xl text-white py-2 '>Projects</h1>
         <div className=' gap-2 mx-auto md:grid grid-cols-2  2xl:grid-cols-4 '>
 
 
             
-             <Card />
-             <Card />
-             <Card />
-             <Card />
+             <Card className='justify-self-center items-center'/>
+             <Card className='justify-self-center items-center' />
+             <Card className='justify-self-center items-center'/>
+             <Card className='justify-self-center items-center'/>
 
           
 
