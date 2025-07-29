@@ -10,8 +10,8 @@ const toggleMenu = () =>{
 }
   return (
     
-<div>
-       <div className='flex justify-between items-center p-2 md:didden' onClick={toggleMenu} >
+<div className=''>
+       <div className='flex justify-between items-center p-2   md:didden' onClick={toggleMenu} >
         <h1 className='text-[1.3rem] text-amber-50'>Thobile N.</h1>
         <button className='b-white px-4 py-2 rounded-md text-white text-[1rem]'>X</button>
       {isOpen && (
