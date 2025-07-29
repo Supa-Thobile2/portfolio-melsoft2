@@ -11,8 +11,8 @@ const toggleMenu = () =>{
   return (
     
 <div>
-       <div className='flex justify-between items-center md:didden' onClick={toggleMenu}>
-        <h1>Thobile N.</h1>
+       <div className='flex justify-between items-center p-2 md:didden' onClick={toggleMenu} >
+        <h1 className='text-3xl text-amber-50'>Thobile N.</h1>
         <button className='b-white px-4 py-2 rounded-md'>X</button>
       {isOpen && (
 <div className='absolute top-16 inset-0 w-full bg-white shadow-lg py-2'>
