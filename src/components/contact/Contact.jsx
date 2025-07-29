@@ -38,8 +38,8 @@ function Contact() {
         <div className='flex items-center justify-center flex-col mx-auto w-full   p-8 shadow-lg bg-r-[ #2C5364, #203A43, #0F2027] backdrop-filter backdrop-blur-lg'>
 
                 <h1 className='text-3xl text-white py-2 '>Contact Me</h1>
-                <p className='text-base text-white py-2 '>I am excited to colloborate to collobarate with like-minded individuals and organizations to build innovative and scalable solutions. </p>
-                <p className='text-base text-white py-2 '>If you are ready to build somethin amazin, et in touch and let us discuss how I can help. Im lookin forward tohearin from you!.</p>
+                <p className='text-base text-white py-2 text-[8px]'>I am excited to colloborate to collobarate with like-minded individuals and organizations to build innovative and scalable solutions. </p>
+                <p className='text-base text-white py-2 text-[8px]'>If you are ready to build somethin amazin, et in touch and let us discuss how I can help. Im lookin forward tohearin from you!.</p>
                   
                  <form class="w-full max-w-lg  p-2 shadow-lg" onSubmit={handleOnSubmit} >
   <div class="flex flex-wrap -mx-3 mb-6">
