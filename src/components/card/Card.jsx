@@ -8,7 +8,7 @@ import { FaHtml5, FaCss3, FaJs } from 'react-icons/fa'
 const Card = ({description, title}) => {
   return (
    
-        <div className="flex items-center justify-center flex-col w-75 mx-auto rounded-t-4xl my-4  shadow-2xl border-amber-50 p-1">
+        <div className="flex items-center justify-center flex-col w-[250px] mx-auto rounded-t-4xl my-4  shadow-2xl border-amber-50 p-1">
              <img src={Image} alt="astranaut"  className=' w-full rounded-t-4xl object-contain' />
             <div className='my-2'>
                 <h1 className='text-[24px] font-semibold tracking-wider '>{title}</h1>
