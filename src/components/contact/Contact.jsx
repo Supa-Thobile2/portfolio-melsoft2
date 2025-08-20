@@ -35,11 +35,11 @@ function Contact() {
 
     <>
         
-        <div className='flex items-center justify-center flex-col mx-auto w-full   p-8 shadow-lg bg-r-[ #2C5364, #203A43, #0F2027]'>
+        <div className='flex items-center justify-center flex-col mx-auto w-full border-2  p-6 shadow-lg bg-r-[ #2C5364, #203A43, #0F2027]'>
 
                 <h1 className='text-3xl text-white py-2 '>Contact Me</h1>
-                <p className=' text-white py-2 text-[11px]'>I am excited to colloborate to collobarate with like-minded individuals and organizations to build innovative and scalable solutions. </p>
-                <p className=' text-white text-[11px] mb-2'>If you are ready to build somethin amazin, et in touch and let us discuss how I can help. Im lookin forward tohearin from you!.</p>
+                <p className=' text-white py-2 text-[12px] leading-4 tracking-wider'>I am excited to colloborate to collobarate with like-minded individuals and organizations to build innovative and scalable solutions. </p>
+                <p className=' text-white text-[12px] mb-2 leading-4 tracking-wider'>If you are ready to build somethin amazin, et in touch and let us discuss how I can help. Im lookin forward tohearin from you!.</p>
                   
                  <form class="w-full max-w-lg shadow-lg py-3" onSubmit={handleOnSubmit} >
   <div class="flex flex-wrap mb-6">

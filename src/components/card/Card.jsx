@@ -23,8 +23,8 @@ const Card = ({description, title}) => {
                 </div>
             </div>
             <div className='flex items-center justify-evenly gap-4 my-2'>
-                <button className='text-[8px] py-2 px-4 rounded-4xl bg-white flex items-center justify-evenly gap-2'><MdPublic size={11}/>live</button>
-                <button className='text-[8px] py-2 px-4 rounded-4xl bg-white flex items-center justify-evenly gap-2'><MdCode size={11}/>Code </button>
+                <button className='text-[8px] py-2 px-4 rounded-4xl bg-white flex items-center justify-evenly gap-4 border-2'><MdPublic size={13}/>live</button>
+                <button className='text-[8px] py-2 px-4 rounded-4xl bg-white flex items-center justify-evenly gap-4 border-2'><MdCode size={13}/>Code </button>
             </div>
         </div>
     
